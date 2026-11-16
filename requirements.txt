@@ -1,0 +1,20 @@
+# Core AI & Agent Orchestration
+langgraph>=1.0.0
+langgraph-checkpoint-sqlite>=3.0.0
+aiosqlite>=0.20.0
+langchain-groq>=1.0.0
+
+# Lightweight Local Vector DB & Embeddings (No PyTorch bloat)
+qdrant-client>=1.12.0
+fastembed>=0.4.0
+
+# Backend API & Config
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.10.0
+pydantic-settings>=2.5.0
+python-dotenv>=1.0.1
+
+# Testing
+pytest>=8.0.0
+httpx>=0.27.0

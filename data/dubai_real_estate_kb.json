@@ -1,0 +1,56 @@
+[
+  {
+    "id": "policy-dld-fees",
+    "category": "policy",
+    "title": "Dubai Land Department (DLD) Fees & Closing Costs",
+    "content": "When purchasing property in Dubai, buyers must pay a mandatory 4% Dubai Land Department (DLD) transfer fee based on the property purchase price, plus an administrative trustee fee of AED 4,200 for properties valued at AED 500,000 or more (or AED 2,100 below AED 500,000). Title deed issuance costs AED 580. For secondary market transactions, standard brokerage agency commission is 2% plus 5% VAT. Off-plan direct developer purchases carry 0% agency commission."
+  },
+  {
+    "id": "policy-golden-visa",
+    "category": "policy",
+    "title": "UAE 10-Year Golden Visa via Real Estate Investment",
+    "content": "Property investors in Dubai qualify for the 10-Year UAE Golden Visa if they purchase one or more properties with a total minimum value of AED 2,000,000 (2 Million AED). Under updated Dubai regulations, off-plan properties from approved developers and mortgaged properties also qualify, provided the property value meets the AED 2M threshold and a No Objection Certificate (NOC) is obtained from the developer or bank. Golden Visa holders can sponsor their spouse, children, and domestic staff."
+  },
+  {
+    "id": "policy-escrow-rera",
+    "category": "policy",
+    "title": "RERA Escrow Protection & Off-Plan Payment Plans",
+    "content": "All off-plan real estate projects in Dubai are strictly regulated by RERA (Real Estate Regulatory Agency). Buyer installment payments must be deposited directly into a project-specific government-monitored Escrow Account, never into a developer's personal account. Typical off-plan payment plans follow a 60/40 structure (60% paid during construction milestones, 40% upon handover) or post-handover plans extending 2 to 3 years after completion."
+  },
+  {
+    "id": "policy-approval-rules",
+    "category": "governance",
+    "title": "Brokerage Governance & Deal Approval Protocol",
+    "content": "AI assistants may autonomously provide general market policies, DLD fee explanations, and public brochure details for properties below AED 1,000,000. However, any formal price quotation, customized payment plan negotiation, private VIP property viewing request, or purchase inquiry involving properties valued at AED 1,000,000 or above MUST be routed for Senior Broker approval before sending a final commitment to the client."
+  },
+  {
+    "id": "prop-jvc-studio",
+    "category": "inventory",
+    "title": "Jumeirah Village Circle (JVC) — High-Yield Studio Residence",
+    "content": "Property ID: DXB-JVC-104. Location: Jumeirah Village Circle (JVC), District 14, Dubai. Type: Modern Furnished Studio Apartment (445 sq.ft). Price: AED 720,000. Status: Ready to Move. Projected Net Rental Yield: 8.2% annually. Amenities include rooftop temperature-controlled pool, co-working lounge, gym, and 1 covered parking space. Ideal for entry-level investors seeking strong short-term rental returns."
+  },
+  {
+    "id": "prop-marina-1br",
+    "category": "inventory",
+    "title": "Dubai Marina — Waterfront 1-Bedroom Apartment",
+    "content": "Property ID: DXB-MAR-208. Location: Dubai Marina (Marina Gate District). Type: 1-Bedroom Luxury Apartment with Marina Canal View (890 sq.ft). Price: AED 1,850,000. Status: Ready / Vacant on Transfer. Features floor-to-ceiling windows, private balcony, infinity pool, direct Marina Walk access, and 24/7 concierge. Eligible for 2-Year Investor Visa (and combinable toward Golden Visa)."
+  },
+  {
+    "id": "prop-downtown-2br",
+    "category": "inventory",
+    "title": "Downtown Dubai — Burj Khalifa View 2-Bedroom Residence",
+    "content": "Property ID: DXB-DT-512. Location: Downtown Dubai, Boulevard District (5-minute walk to Dubai Mall). Type: 2-Bedroom Premium Residence with Full Burj Khalifa & Fountain View (1,480 sq.ft). Price: AED 4,200,000. Status: Off-Plan (Handover Q4 2027). Payment Plan: 60/40 developer plan (10% booking deposit). Qualifies directly for the 10-Year UAE Golden Visa."
+  },
+  {
+    "id": "prop-palm-villa",
+    "category": "inventory",
+    "title": "Palm Jumeirah — Signature 5-Bedroom Beachfront Villa",
+    "content": "Property ID: DXB-PALM-09. Location: Palm Jumeirah Frond M, Dubai. Type: Ultra-Luxury 5-Bedroom Custom Beachfront Villa with Private Beach Access (6,800 sq.ft built-up area). Price: AED 24,500,000. Status: Ready & Fully Furnished. Features private infinity pool, elevator, smart home automation, driver & maid quarters, and private 3-car garage. VIP private viewing requires Senior Broker authorization and passport/Emirates ID verification."
+  },
+  {
+    "id": "prop-businessbay-office",
+    "category": "inventory",
+    "title": "Business Bay — Fitted Executive Commercial Office Suite",
+    "content": "Property ID: DXB-BB-305. Location: Business Bay (Near Metro Station), Dubai. Type: Grade-A Commercial Office Suite, Fully Fitted & Partitioned (2,150 sq.ft). Price: AED 3,100,000. Status: Ready for Immediate Corporate Occupancy. Includes 4 allocated parking bays, conference room, pantry, and Burj Khalifa skyline view. Ideal for international firms establishing mainland or DMCC-adjacent headquarters."
+  }
+]
