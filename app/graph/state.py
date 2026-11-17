@@ -1,5 +1,5 @@
 """
-Graph state definition and Pydantic structured output schemas for SentinelOps.
+Graph state definition and Pydantic structured output schemas for DubaiProp HITL.
 """
 
 import operator
@@ -45,7 +45,7 @@ class LeadQualification(BaseModel):
 
 
 class AgentState(TypedDict):
-    """Shared state passed across all nodes in the SentinelOps LangGraph workflow."""
+    """Shared state passed across all nodes in the DubaiProp HITL LangGraph workflow."""
 
     thread_id: str
     user_query: str

@@ -1,5 +1,5 @@
 """
-FastAPI application entrypoint for SentinelOps.
+FastAPI application entrypoint for DubaiProp HITL.
 Manages async SQLite checkpointer lifecycle, Qdrant warm-up, and static dashboard serving.
 """
 
@@ -58,7 +58,7 @@ if STATIC_DIR.exists():
 
 @app.get("/", include_in_schema=False)
 async def serve_dashboard():
-    """Serve the SentinelOps visual dashboard if present."""
+    """Serve the DubaiProp HITL visual dashboard if present."""
     index_path = STATIC_DIR / "index.html"
     if index_path.exists():
         return FileResponse(index_path)

@@ -1,16 +1,16 @@
-# SentinelOps — Autonomous Real Estate AI & HITL Governance Agent
+# DubaiProp HITL — Autonomous Real Estate AI & HITL Governance Agent
 
-**SentinelOps** is a production-oriented **LangGraph** multi-step agentic system built for **Dubai/UAE Real Estate Brokerages**. Unlike naive RAG chatbots that hallucinate answers or execute high-stakes commitments blindly, SentinelOps combines **Self-Corrective RAG**, **Deterministic Policy Guardrails**, **Pydantic Structured Qualification**, and **Persistent Human-in-the-Loop (HITL)** interrupts backed by SQLite checkpointing.
+**DubaiProp HITL** is a production-oriented **LangGraph** multi-step agentic system built for **Dubai/UAE Real Estate Brokerages**. Unlike naive RAG chatbots that hallucinate answers or execute high-stakes commitments blindly, DubaiProp HITL combines **Self-Corrective RAG**, **Deterministic Policy Guardrails**, **Pydantic Structured Qualification**, and **Persistent Human-in-the-Loop (HITL)** interrupts backed by SQLite checkpointing.
 
 ---
 
-## Why SentinelOps?
+## Why DubaiProp HITL?
 
 Real estate inquiries in high-value markets like Dubai carry strict legal and financial stakes (DLD transfer fees, UAE Golden Visa thresholds, RERA Escrow rules, and AED 1M–25M+ property viewings). Standard LLM wrappers fail in production because they:
 1. **Hallucinate** when vector search returns low-relevance context.
 2. **Lack governance** to pause and request Senior Broker authorization before quoting or scheduling VIP deals.
 
-SentinelOps solves both using a stateful cyclic **LangGraph `StateGraph`** workflow.
+DubaiProp HITL solves both using a stateful cyclic **LangGraph `StateGraph`** workflow.
 
 ---
 
@@ -61,8 +61,8 @@ flowchart TD
 
 ### 1. Clone & Create Virtual Environment
 ```bash
-git clone https://github.com/mominulislam14/sentinelops-agent.git
-cd sentinelops-agent
+git clone https://github.com/mominulislam14/dubai-realestate-hitl-agent.git
+cd dubai-realestate-hitl-agent
 python -m venv venv
 ```
 

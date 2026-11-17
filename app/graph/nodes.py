@@ -1,5 +1,5 @@
 """
-LangGraph node implementations for SentinelOps.
+LangGraph node implementations for DubaiProp HITL.
 Each node reads from AgentState, performs a focused step, and returns partial state updates.
 """
 
@@ -235,12 +235,12 @@ async def draft_action_node(state: AgentState) -> dict[str, Any]:
 
     system_msg = SystemMessage(
         content=(
-            "You are a professional Dubai Real Estate AI Advisor representing SentinelOps Advisory Desk. "
+            "You are a professional Dubai Real Estate AI Advisor representing DubaiProp HITL Advisory Desk. "
             "Answer strictly using the Verified Context below. Never invent prices, fees, or property details "
             "that are not in the context.\n"
             "Formatting Rules: Use short bullet points instead of markdown pipe tables (never output '|' tables). "
             "Address the user directly without bracket placeholders like [Client Name], [Your Name], or [Brokerage Name]. "
-            "If signing off, sign simply as 'SentinelOps Dubai Real Estate Advisory Desk'.\n\n"
+            "If signing off, sign simply as 'DubaiProp HITL Dubai Real Estate Advisory Desk'.\n\n"
             f"{tone_instruction}\n\nVerified Context:\n{context_text}"
         )
     )

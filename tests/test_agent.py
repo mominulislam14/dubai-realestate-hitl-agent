@@ -1,5 +1,5 @@
 """
-Automated unit and integration tests for SentinelOps LangGraph workflow.
+Automated unit and integration tests for DubaiProp HITL LangGraph workflow.
 Uses mocked LLM/vector retrieval so tests run deterministically offline in <1s.
 """
 

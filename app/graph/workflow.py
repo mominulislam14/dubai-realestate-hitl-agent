@@ -1,5 +1,5 @@
 """
-LangGraph StateGraph construction and conditional routing for SentinelOps.
+LangGraph StateGraph construction and conditional routing for DubaiProp HITL.
 Connects guardrails, corrective RAG cycles, lead qualification, and HITL interrupts.
 """
 
@@ -54,7 +54,7 @@ def route_after_draft(state: AgentState) -> Literal["human_approval", "finalize"
 
 
 def build_workflow() -> StateGraph:
-    """Build and wire the SentinelOps LangGraph workflow (uncompiled)."""
+    """Build and wire the DubaiProp HITL LangGraph workflow (uncompiled)."""
     builder = StateGraph(AgentState)
 
     # Register all nodes

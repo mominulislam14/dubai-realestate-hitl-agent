@@ -1,5 +1,5 @@
 """
-FastAPI routes for SentinelOps agent execution, HITL resume, and state inspection.
+FastAPI routes for DubaiProp HITL agent execution, HITL resume, and state inspection.
 """
 
 import uuid
@@ -11,7 +11,7 @@ from pydantic import BaseModel, Field
 
 from app.core.config import settings
 
-router = APIRouter(prefix="/api", tags=["SentinelOps Agent"])
+router = APIRouter(prefix="/api", tags=["DubaiProp HITL Agent"])
 
 
 class InquiryRequest(BaseModel):
